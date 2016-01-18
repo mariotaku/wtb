@@ -1,0 +1,8 @@
+# IDE specific files
+
+.idea/
+*.iml
+
+# Token and config files
+
+.twitter_token
