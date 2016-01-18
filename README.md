@@ -7,5 +7,7 @@ WHO TO BLOCK
 
 ## Description
 
-pink_*.csv 小粉红
-wumao_*.csv 五毛
+| File name | Description |
+| :--: | :--: |
+|pink_\*.csv|爱国小粉红|
+|wumao_\*.csv|五毛|
