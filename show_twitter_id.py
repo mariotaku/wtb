@@ -6,6 +6,10 @@ import re
 import urllib
 import urllib2
 import urlparse
+import sys
+
+if len(sys.argv) == 1:
+    sys.argv.append('--help')
 
 token = None
 
