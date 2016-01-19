@@ -6,6 +6,7 @@ import urllib2
 import urlparse
 import base64
 import json
+import sys
 
 parser = argparse.ArgumentParser(description='Obtain access token from Twitter')
 
@@ -13,6 +14,9 @@ parser.add_argument('-c', '--consumer-key', action='store', dest='consumer_key',
 parser.add_argument('-s', '--consumer-secret', action='store', dest='consumer_secret', help='Consumer key')
 parser.add_argument('-u', '--api-url', action='store', dest='api_url', help='API URL',
                     default='https://api.twitter.com')
+
+if len(sys.argv) == 1:
+    sys.argv.append('--help')
 
 args = parser.parse_args()
 
