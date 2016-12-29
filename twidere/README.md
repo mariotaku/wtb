@@ -13,7 +13,13 @@
 ````xml
 <?xml version="1.0" encoding="utf-8"?>
 <filters>
-    <-- key 为 "数字id@twitter.com" 的格式，name 即为名字， screenName 即为 @用户名。 -->
+    <!-- key 为 "数字id@twitter.com" 的格式，name 即为名字， screenName 即为 @用户名。 -->
 	<user key="[numericalId]@twitter.com" name="User name" screenName="screenName" />
+	<!-- 关键词 -->
+	<keyword>SpamKeyword</keyword>
+	<!-- 推文来源（发送的应用程序） -->
+	<source>SpamApp Source</source>
+	<!-- 推文中包含的链接 -->
+	<link>spamsite.com</link>
 </filters>
 ````
