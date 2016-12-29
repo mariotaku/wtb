@@ -6,3 +6,13 @@
 
 ## 如何导入
 在 Twidere - 过滤 - 设定 中添加订阅（功能待定）
+
+## 文件格式
+
+````xml
+<?xml version="1.0" encoding="utf-8"?>
+<filters>
+    <-- key 为 "数字id@twitter.com" 的格式，name 即为名字， screenName 即为 @用户名。 -->
+	<user key="[numericalId]@twitter.com" name="User name" screenName="screenName" />
+</filters>
+````
