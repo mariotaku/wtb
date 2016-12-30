@@ -1,0 +1,8 @@
+<!ELEMENT filters (user|keyword|source|link)*>
+<!ELEMENT user EMPTY>
+<!ATTLIST user key CDATA #REQUIRED>
+<!ATTLIST user name CDATA #REQUIRED>
+<!ATTLIST user screenName CDATA #REQUIRED>
+<!ELEMENT keyword (#PCDATA)>
+<!ELEMENT source (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
