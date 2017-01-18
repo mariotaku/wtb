@@ -8,7 +8,7 @@
 ## 如何导入
 在 Twidere - 过滤 - 设定 中添加订阅（功能待定）
 
-[在 Twidere 中添加 机器人 过滤列表](http://twidere.mariotaku.org/external/filters/subscriptions/add?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmariotaku%2Fwtb%2Fmaster%2Ftwidere%2Fbots.xml&name=%E6%9C%BA%E5%99%A8%E4%BA%BA)
+[在 Twidere 中订阅“机器人”过滤列表](http://twidere.mariotaku.org/external/filters/subscriptions/add?url=https%3A%2F%2Fraw.githubusercontent.com%2Fmariotaku%2Fwtb%2Fmaster%2Ftwidere%2Fbots.xml&name=%E6%9C%BA%E5%99%A8%E4%BA%BA)
 
 ## 文件格式
 
